@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var car = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
+		console.log(car.sort());
+	</script>
+
+	<script>
+		var fruit = ["apple", "banana", "kiwi"];
+		fruit.splice(3,0,"orange");
+		console.log(fruit);
+
+		console.log(fruit.slice(0,3));
+	</script>
+
+	<script>
+		var animal = ["monkey", "horse", "dog"];
+		console.log(animal.sort());
+		animal.splice(0,0,"cat");
+		console.log(animal);
+	</script>
+
+	<script>
+		var fruits = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+		var splitted_fruits = new Array();
+		splitted_fruits = fruits.split("/");
+		console.log(splitted_fruits.join(" "));
+
+	</script>
+
+</body>
+</html>
